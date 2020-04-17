@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>image_mouse_hover</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script type="text/javascript">
+        function setNewImage()
+        {
+            document.getElementById("img1").src ="imgs/bootstrap-logo.jpg";
+        }
+        function setO1dImage()
+        {
+            document.getElementById("img1").src ="imgs/bootstrap-social.png";
+        }
+    </script>
+</head>
+    
+  <body>
+      <div class="container">
+        <h1 id="hovereffect"> Javascript Hover Effect</h1>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Hover Effect</h5>
+                <img id="img1" onmouseover="setNewImage()"
+                onmouseout="setO1dImage()" src="imgs/bootstrap-social.png"
+                width="500"/>
+            </div>
+        </div>
+      </div>
+        
+  </body>
+</html>
