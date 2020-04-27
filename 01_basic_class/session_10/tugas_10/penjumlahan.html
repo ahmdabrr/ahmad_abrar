@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    !--My Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+
+    <!--My CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Penjumlahan</title>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container text center">
+        <a class="navbar-brand" href="#">Arithmetic Operations</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link" href="#">Home</a>
+            <a class="nav-item nav-link active" href="#">Penjumlahan <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Pengurangan</a>
+            <a class="nav-item nav-link" href="#">Pembagian</a>
+            <a class="nav-item nav-link" href="#">Perkalian</a>
+          </div>
+        </div>
+    </div>
+      </nav><br><br><br><br><br>
+
+      <div class="container">
+      <div class="card">
+        <div class="card-header">
+          <h5>Operasi Penjumlahan</h5>
+        </div>
+        <div class="card-body">
+            <!-- <FORM NAME ="fform">
+                <H4><BR>Memasukkan Data Lewat Keyboard</H4>
+                <PRE>
+                Bilangan Pertama   :<input type="text" size="11" name="bilangan1">
+                Bilangan Kedua     :<input type="text" size="11" name="bilangan2">
+                </PRE>
+                <P>
+                <INPUT TYPE="button" value="Jumlahkan" onclick="jumlah()">
+                <INPUT TYPE="reset" value="Ulang">
+                </FORM> -->
+               
+
+                <form name="my_cal">
+ 
+                    <!-- Here user will enter 1st number. -->
+                    Bilangan ke-1: <input type="text" name="first"> 
+                      
+                     
+                    <!-- Here user will enter 2nd number. -->
+                    Bilangan ke-2: <input type="text" name="second"> 
+                     
+                     
+                    <!-- Here result will be displayed. -->
+                    Output Hasil : <input type="text" name="total"> 
+                     
+                    <input type="button" value="Penjumlahan" onclick="javascript:addition();"> <br><br>
+
+          <a href="index.html" class="btn btn-primary">Back to Home</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+ 
+    <!-- My Script -->
+    <script src="./script.js"></script>
+</body>
+</html>
