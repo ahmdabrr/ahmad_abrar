@@ -14,7 +14,7 @@
     <!--My CSS-->
     <link rel="stylesheet" href="style.css">
 
-    <title>Penjumlahan</title>
+    <title>Pembagian</title>
   </head>
   <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
@@ -25,11 +25,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link" href="index.html">Home</a>
-            <a class="nav-item nav-link active" href="penjumlahan.html">Penjumlahan <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="home.html">Home</a>
+            <a class="nav-item nav-link" href="penjumlahan.html">Penjumlahan</a>
             <a class="nav-item nav-link" href="pengurangan.html">Pengurangan</a>
-            <a class="nav-item nav-link" href="pembagian.html">Pembagian</a>
-            <a class="nav-item nav-link" href="#">Perkalian</a>
+            <a class="nav-item nav-link active" href="pembagian.html">Pembagian <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="perkalian.html">Perkalian</a>
           </div>
         </div>
     </div>
@@ -38,22 +38,10 @@
       <div class="container">
       <div class="card">
         <div class="card-header">
-          <h5>Operasi Penjumlahan</h5>
+          <h5>Operasi Pembagian</h5>
         </div>
         <div class="card-body">
-            <!-- <FORM NAME ="fform">
-                <H4><BR>Memasukkan Data Lewat Keyboard</H4>
-                <PRE>
-                Bilangan Pertama   :<input type="text" size="11" name="bilangan1">
-                Bilangan Kedua     :<input type="text" size="11" name="bilangan2">
-                </PRE>
-                <P>
-                <INPUT TYPE="button" value="Jumlahkan" onclick="jumlah()">
-                <INPUT TYPE="reset" value="Ulang">
-                </FORM> -->
-               
-
-                <form name="my_cal">
+            <form name="my_cal">
  
                     <!-- Here user will enter 1st number. -->
                     Bilangan ke-1: <input type="text" name="first"> 
@@ -66,10 +54,10 @@
                     <!-- Here result will be displayed. -->
                     Output Hasil : <input type="text" name="total"><br>
                     <p></p>
-                    <input type="button" value="Penjumlahan" onclick="javascript:addition();"> <br>
+                    <input type="button" value="Pembagian" onclick="javascript:addition();"> <br>
 
                     <br>
-                    <h6>Masukkan hasil penjumlahan untuk merubah ke kalimat:</h6>
+                    <h6>Masukkan hasil Pembagian untuk merubah ke kalimat:</h6>
                     <input type="text" id="input">
                     <p id="output"></p>
 
@@ -85,6 +73,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
  
     <!-- My Script -->
-    <script src="./penjumlahan.js"></script>
+    <script src="./pembagian.js"></script>
 </body>
 </html>
