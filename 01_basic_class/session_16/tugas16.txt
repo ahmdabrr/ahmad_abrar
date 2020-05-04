@@ -1,0 +1,20 @@
+// Create mongo 
+> db.product.insert({name: "KitKat", stock: 2, description: "Chocolatte"});
+
+// Read mongo 
+> db.product.find({});
+
+{ "_id" : ObjectId("5eaf9cc8423bb6e0fed75988"), "name" : "KitKat", "stock" : 2, "description" : "Chocolatte" }
+
+>db.product.find().forEach(printjson);
+
+// Update mongo 
+> db.product.updateOne({ "_id": ObjectId("5eaf9cc8423bb6e0fed75988")}, {$set: { "name": "BengBeng", "stock": 4, "description": "Vanilla"}});
+
+// Delete mongo 
+> db.product.deleteOne({ "_id": ObjectId("5eaf9cc8423bb6e0fed75988")}, {$set: { "name": "BengBeng", "stock": 4, "description": "Vanilla"}});
+
+
+
+
+
