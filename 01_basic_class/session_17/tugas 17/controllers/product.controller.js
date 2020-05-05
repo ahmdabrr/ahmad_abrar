@@ -20,14 +20,14 @@ exports.product_create = function (req, res) {
     })
 };
 
-// exports.product_list = function (req, res){
-//     Product.find({}, function (err, dataProduct) {
-//         if(err) {
-//             return next(err);
-//         }
-//         res.send({data: dataProduct});
-//     })
-// };
+exports.product_list = function (req, res){
+    Product.find({}, function (err, dataProduct) {
+        if(err) {
+            return next(err);
+        }
+        res.send({data: dataProduct});
+    })
+};
 //Simple version, without validation or sanitation
 exports.test = function (req, res) {
     res.send('Greetings from the Test controller!');
